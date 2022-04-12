@@ -1,4 +1,4 @@
-# ORTHOLOGY
+# useful scripts
 
 ```
 def pathways (organism):
