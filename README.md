@@ -1,6 +1,6 @@
 # ORTHOLOGY
 
-'''
+```
 def pathways (organism):
   import requests
   import json
@@ -19,8 +19,8 @@ def pathways (organism):
         if m:
             pathwaylist.append(m.group(1))
   return pathwaylist
-  '''
-  '''
+  ```
+  ```
   def pathway2genes (lmalist):
     import requests
     import json
@@ -58,4 +58,4 @@ def pathways (organism):
     #print(result)
     result.to_csv('./'+organism + '_Pathwaysgenelist.csv', index=False, header=None)
     return result
-    '''
+    ```
